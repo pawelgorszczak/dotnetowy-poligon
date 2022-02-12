@@ -25,7 +25,6 @@ namespace understatning_memory_managemnt
         }
     }
 
-
     public static class Exercise2_Static_Class
     {
         public static List<ClassA> ClassAStore = new List<ClassA>();
