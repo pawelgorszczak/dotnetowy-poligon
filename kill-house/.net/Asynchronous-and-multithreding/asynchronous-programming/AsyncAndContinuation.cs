@@ -28,7 +28,7 @@ namespace asynchronous_programming
 
             if (executeDelay)
             {
-                await Task.Delay(100);
+                await Task.Delay(1);
                 System.Console.WriteLine($"[{Thread.CurrentThread.ManagedThreadId}][Cpu Bound operation {index}] - continuation on some thread");
             }
 
