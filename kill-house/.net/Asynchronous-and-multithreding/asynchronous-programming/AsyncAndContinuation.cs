@@ -14,7 +14,7 @@ namespace asynchronous_programming
             Thread.Sleep(2000);
         }
 
-        // There is no synchronization context so execution is done on next thread from thredpool
+        // There is no synchronization context so continuation is done on next thread from thredpool
         public static void ShowExampleWithContinuation(){            
             CpuBoundOperation(1, true);                        
             CpuBoundOperation(2, true);

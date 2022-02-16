@@ -8,7 +8,12 @@ namespace asynchronous_programming
     {        
         static void Main(string[] args)
         {
-            AsyncBasics.ShowExample();
+            System.Console.WriteLine("==============================================");
+            AsyncBasics.ShowExample();                        
+            System.Console.WriteLine("==============================================");
+            AsyncBasics.ShowExampleWithTask();
+            System.Console.WriteLine("==============================================");
+            AsyncBasics.ShowExampleWithFinishedTask();
             System.Console.WriteLine("==============================================");
             AsyncAndContinuation.ShowExample();
             System.Console.WriteLine("==============================================");
